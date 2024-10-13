@@ -2,10 +2,10 @@ asgiref
 Django
 django-cors-headers
 djangorestframework
+django-ratelimit
 djangorestframework-simplejwt
 PyJWT
 pytz
 sqlparse
 psycopg2-binary
 python-dotenv
-# eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzI4ODE2MDUxLCJpYXQiOjE3Mjg4MTQyNTEsImp0aSI6IjJkNjc3NjYxNTc5MDQ5ZjE4MzYyMjU1N2E0Y2UzNzQ2IiwidXNlcl9pZCI6MX0.Qby7s7aKnXvMA4nbj3hlB2UaylumI7twR3FUKr_rhJE

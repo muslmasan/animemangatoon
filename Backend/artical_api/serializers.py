@@ -43,3 +43,4 @@ class ArticleSerilaizser(serializers.ModelSerializer):
             for character_data in characters_data:
                 character, created = Character.objects.get_or_create(**character_data)
                 instance.characters.add(character)
+        return instance

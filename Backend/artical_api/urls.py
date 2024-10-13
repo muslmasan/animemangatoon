@@ -6,5 +6,5 @@ router = DefaultRouter()
 router.register(r'webtoons', ArticleViewSet)
 
 urlpatterns = [
-    path('', include(router.urls)),
+    path('', include(router.urls),),
 ]
