@@ -2,7 +2,12 @@ from django.contrib.auth.models import User
 from rest_framework import serializers
 from .models import Article, Character
 
+
 class UserSerializer(serializers.ModelSerializer):
+
+    title = serializers.CharField(required=True)
+    descrition = serializers.CharField(required=True)
+
     class Meta:
         model = User
         fields = ["id", "username", "password"]
